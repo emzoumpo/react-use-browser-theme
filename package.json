@@ -1,0 +1,44 @@
+{
+  "name": "react-use-browser-theme",
+  "version": "1.0.6",
+  "description": "React hook for retrieving the current browser theme and listening for changes.",
+  "author": "Emmanouil Zoumpoulakis <emzoumpo@gmail.com> (https://github.com/emzoumpo)",
+  "license": "MIT",
+  "repository": "emzoumpo/react-use-browser-theme",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "yarn run build",
+    "predeploy": "cd example && yarn install && yarn run build",
+    "deploy": "gh-pages -d example/build"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@types/react": "^16.9.27",
+    "cross-env": "^7.0.2",
+    "gh-pages": "^2.2.0",
+    "prettier": "^2.0.2",
+    "react": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "rollup-plugin-url": "^3.0.1",
+    "typescript": "^3.8.3"
+  }
+}
