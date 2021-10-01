@@ -1,6 +1,6 @@
 {
   "name": "react-use-browser-theme",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React hook for retrieving the current browser theme and listening for changes.",
   "author": "Emmanouil Zoumpoulakis <emzoumpo@gmail.com> (https://github.com/emzoumpo)",
   "license": "MIT",
@@ -9,8 +9,8 @@
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">=12",
+    "npm": ">=6"
   },
   "scripts": {
     "build": "rollup -c",
@@ -21,24 +21,24 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/runtime": "^7.9.2",
-    "@types/react": "^16.9.27",
-    "cross-env": "^7.0.2",
-    "gh-pages": "^2.2.0",
-    "prettier": "^2.0.2",
-    "react": "^16.13.1",
-    "react-scripts": "^3.4.1",
-    "rollup": "^2.2.0",
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "@types/react": "^17.0.26",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "rollup": "^2.57.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.2",
-    "rollup-plugin-typescript2": "^0.27.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-url": "^3.0.1",
-    "typescript": "^3.8.3"
+    "typescript": "^4.4.3"
   }
 }
