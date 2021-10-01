@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a React Hook that will call a callback function provided to it every time the theme changes.
+This is a React Hook that accepts a callback function provided to it every time the theme changes.
 The theme of the browser is returned as `light` or `dark`, `light` being the default if there is no explicit theme setting by the user.
 
 ## Example
