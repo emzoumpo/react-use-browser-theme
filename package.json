@@ -1,7 +1,7 @@
 {
   "name": "react-use-browser-theme",
-  "version": "1.0.7",
-  "description": "React hook for retrieving the current browser theme and listening for changes.",
+  "version": "1.0.8",
+  "description": "React Hook dark and light mode theming.",
   "author": "Emmanouil Zoumpoulakis <emzoumpo@gmail.com> (https://github.com/emzoumpo)",
   "license": "MIT",
   "repository": "emzoumpo/react-use-browser-theme",
